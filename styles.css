@@ -92,6 +92,7 @@ header nav a:last-child{ font-size:15px !important; padding:13px 26px !important
   }
 
   /* repeat グリッド */
+  [style*="grid-template-columns:repeat(5,1fr)"]{ grid-template-columns:repeat(3,1fr) !important; }
   [style*="grid-template-columns:repeat(4,1fr)"]{ grid-template-columns:repeat(2,1fr) !important; }
   [style*="grid-template-columns:repeat(3,1fr)"]{ grid-template-columns:1fr !important; }
   [style*="grid-template-columns:repeat(2,1fr)"]{ grid-template-columns:1fr !important; }
